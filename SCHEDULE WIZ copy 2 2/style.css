@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  font-family: khmer;
+  color: #4F006C;
+}
+
+@font-face {
+  font-family: le-murmure;
+  src: url(fonts/le-murmure.otf);
+}
+
+@font-face {
+  font-family: khmer;
+  src: url(fonts/Khmer\ MN.ttc);
+}
+
+.fucker {
+  width: 1300px;
+  border: 15px solid rgb(187, 89, 243);
+  padding: 50px;
+  padding-bottom: -20px;
+  margin: auto;
+  background-color: rgb(252, 255, 85)  
+}
+
+body {
+  background: rgb(187,89,243);
+  background: linear-gradient(0deg, rgba(187,89,243,1) 0%, rgba(234,96,247,1) 23%, rgba(250,191,78,1) 63%, rgba(252,255,85,1) 100%);  
+}
+
+  .title{
+    font-family: le-murmure;
+    width: 455px;
+    height: 56px;
+    left: 493px;
+    top: 146px;  
+  margin-top: -580px;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;        
+        padding-right: 20px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 70px;
+    line-height: 56px;
+  clear: both;
+  display: table;
+    left: 0 !important;
+    width: 100% !important;   
+    height: auto !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 100% !important;    
+    margin-bottom: 8px !important;
+    padding-right: 0 !important;
+    min-width: 0 !important;
+    text-align: center !important;    
+    color: #4F006C;     
+  }
+
+  .subtitle{
+    font-family: le-murmure;
+width: 527px;
+height: 88px;
+left: 457px;
+top: 225px;
+margin: 0 auto;
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-bottom: 250px;
+        padding-left: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 33px;
+text-align: center;
+color: #4F006C;
+  }
+
+ .q1{    
+  font-family: le-murmure;
+    width: 500px;
+    height: 35px;
+    left: 585px;
+    top: -1000px;
+    margin: 0 auto;
+    line-height: 20px;
+        padding-top: 100px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 28px;
+    text-align: center;    
+    color: #4F006C;
+ } 
+
+.q2{
+  font-family: le-murmure;   
+width: 500px;
+height: 28px;
+left: 585px;
+top: -1343px;
+margin-top: -170px;
+margin-left: auto;
+margin-right: auto;
+        padding-top: -200px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 28px;
+text-align: center;
+color: #4F006C;
+}
+
+
+.yes{
+  font-family: le-murmure; 
+width: 73px;
+height: 28px;
+top: 2035px;
+margin: 0 auto;
+margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -70px;
+  margin-top: -20px;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 28px;
+text-align: center;
+color: #4F006C;
+left: 0 !important;
+    width: 100% !important;   
+    height: auto !important;   
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 100% !important;
+}
+
+.button{
+width: 200px;
+height: 100px;
+left: 10px;
+top: 2211px;
+margin-bottom: 15px;
+margin-top: 100px;
+padding: 20px 15px;
+background-color: rgb(194, 120, 255);
+border: 5px solid rgb(248, 97, 253);
+text-align: center;
+line-height: 30px;
+padding-top: -200px;
+  text-decoration: rgb(194, 120, 255);  
+  font-size: 25px;
+  border-radius: 15px;
+color:white;        
+}
+
+.button:hover{
+  background: rgb(169,35,255,1);
+background: radial-gradient(circle, rgba(169,35,255,1) 0%, rgba(155,81,255,1) 65%, rgba(117,55,255,1) 100%);
+}
+
+
+a{ 
+  text-decoration: none;
+}
+
+.box {
+      line-height: 1.3em;
+      z-index: 9999;
+      position: sticky;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);                  
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: all .5s ease;
+      width: 270px;
+      padding-top: -1000px;
+      padding-bottom: 180px;
+ }
+
+.josh{
+  width: 1100px;; display: block;
+  margin:0 auto;
+  line-height: 75;
+  background: img style="max-width:100%" src= "backygroundy2.jpg" class="background" alt="background";
+      padding-top: 50px;
+      padding-right: 10px;
+      padding-bottom: 50px;
+      padding-left: 10px;
+      margin-top: -150px;      
+}
+
+.chels{
+  width: 900px;; display: block;
+  margin:0 auto;
+  line-height: 75;
+  margin-top: -45px;
+  padding-top: 50px;
+      padding-right: 10px;
+      padding-bottom: -500px;
+      padding-left: 10px;  
+}
+
+ .cornerleft{
+  width: 400px;; display: block;
+  margin:absolute;
+  line-height: 75;
+  margin:0 auto;
+      padding-right: 100px;
+      padding-left: 50px;
+      padding-top: 50px;
+      display: flex;          
+      margin-top: -10px;
+      margin-right: 20px;
+      margin-left: 750px;
+      margin-bottom: -350px;
+ }
+
+ .flipped{
+  width: 600px;; display: block;
+  margin:absolute;
+  line-height: 75;
+  margin:0 auto;
+      padding-right: 150px;
+      padding-left: 70px;
+      padding-top: -50px;
+      display: flex;     
+      margin-top: -30px;
+      margin-right: 870px;
+      margin-left: 20px;
+      margin-bottom: 260px;
+ }
+
+h1{
+  text-transform: uppercase;
+    text-align: center;
+    font-family:"le-murmure"; font-size: 65pt; color: #4F006C;
+
+}
+
+.dots { 
+  text-align: center;
+  border-bottom: 1px dotted; color: #4F006C;
+  margin-left: 373px;
+  margin-right: 373px;
+}
+
+h3{
+  text-align: center;
+  font-size: 22px;
+  font-family: khmer; color: #4F006C;
+}
+
+div{
+  text-align: center;
+  padding: 7px;
+  font-size: 19px;
+  font-family: khmer; color: #4F006C;
+}
+
+.right1 {
+  position: absolute;
+  top: 15px;
+  left: 1000px;
+  display: block;
+  margin-right: auto;
+  width: 25%
+}
+ .right1 {
+  position: absolute; top: 15px;
+  left: 1000px;
+  display: block;
+  margin-right: auto;
+  width: 25%
+}
+
+.left1 {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+
+label {
+  align-items: flex-start;
+}
+  
+.fieldid{   
+    font-size: auto;
+    padding-right: 10px;
+  }
+
+.removeButton {
+width: 80px;
+height: 25px;
+margin-right: -81px;
+margin-top: 10px;
+padding-left: 10px;
+background-color: #bb00ff7c;
+border: violet;
+      text-decoration: violet;
+      font-size: auto;
+      border-radius: 15px;
+    color:white;
+}
+
+form {
+  box-sizing: content-box;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font{
+  font-family: "le-murmure";
+  color: #4F006C;
+}
+
+.duration{
+  margin: 10px 10px 10px 6px;
+}
+
+#addMoreButton{
+   width: 150px;
+  height: 30px;
+  margin-right: -5px;
+  margin-top: 40px;
+  padding-left: 3px;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  background-color: #bb00ff7c;
+  border: violet;
+        text-decoration: violet;
+        font-size: auto;
+        text-align: center;
+        border-radius: 15px;
+      color:white;
+      font-size: 20px;
+}
+
+#magicButton{
+width: 160px;
+height: 70px;
+left: 10px;
+top: 2211px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 7px;
+margin-top: 5px;
+padding: 20px 2px;
+background-color: rgb(194, 120, 255);
+border: 2px solid rgb(248, 97, 253);
+text-align: center;
+line-height: 30px;
+padding-top: -200px;
+  text-decoration: rgb(194, 120, 255);  
+  font-size: 20px;
+  border-radius: 15px;
+color:white;
+}
+
+#magicButton:hover{
+  background: rgb(169,35,255,1);
+background: radial-gradient(circle, rgba(169,35,255,1) 0%, rgba(155,81,255,1) 65%, rgba(117,55,255,1) 100%);
+}
+
+#schedule-container{
+  box-sizing: content-box;
+  max-width: 500px;
+  margin-left: 40%;
+  text-align: left;
+}
+
+.confetti{
+  width: 160px;
+height: 70px;
+left: 10px;
+top: 2211px;
+margin-bottom: 15px;
+margin-left: 20px;
+margin-right: 7px;
+margin-top: 5px;
+padding: 20px 2px;
+background-color: rgb(194, 120, 255);
+border: 3.5px solid rgb(248, 97, 253);
+text-align: center;
+line-height: 30px;
+padding-top: -200px;
+  text-decoration: rgb(194, 120, 255);  
+  font-size: 20px;
+  border-radius: 15px;
+color:white;
+}
+
+.confetti:hover{
+  background: rgb(169,35,255,1);
+  background: radial-gradient(circle, rgba(169,35,255,1) 0%, rgba(155,81,255,1) 65%, rgba(117,55,255,1) 100%);  
+}

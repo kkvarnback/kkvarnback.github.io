@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SCHEDULE WIZARD 🧙</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script src="form.js"></script>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  </head>
+  
+  <div class="fucker">
+  <body class="body2">
+    
+    <h1 class="dots">The magic potion</h1>
+    <h3>For the Potion to work, you will need the following ingredients </h3>
+    <img class="left1" src="images/stacywizard.png" alt="A wizard">
+      <img class="right1" src="images/johnwizard.png" alt="Another Wizard">
+      
+      
+ 
+    <form action="schedule.html" id="form">
+      <div>
+        
+            <h3>Where are you going?</h3>
+       
+        
+        <div class="stretch">
+            <label for="destination">Choose a destination:</label>
+            <input type="text" id="dest" name="destination">
+        </div>
+        
+        <div>
+            <h3>How long does it take for you to get there?</h3>
+        </div>
+
+        <div class="stretch">
+            <label for="commute">Time in minutes:</label>
+            <input type="number" id="comm" name="commute" min="1">
+        </div>
+
+        <div>
+            <h3>When do you need to be there?</h3>
+        </div>
+
+        <div>
+            <label for="arrival">Pick a time:</label>
+            <input type="time" id="arr" name="arrival">
+        </div>
+
+        <div>
+            <h3>What do you need to do before?</h3>
+        </div>
+
+        <div id="fields0" class="activities">
+            <label for="activity">Activity:</label>
+            <input id="act0" type="text" name="activity" class="activity" placeholder="Ex: Shower">
+            <label for="duration">Duration:</label>
+            <input id="dur0" type="number" name="duration" class="duration" placeholder="Minutes" min="1" onchange="btnCheck()">
+        </div>
+
+        <div>
+            <br><input type="button" id="addMoreButton" onclick="add_activity()" value="Add More" disabled>
+        </div>
+
+        <div>
+            <br><input type="submit" value="DO YOUR MAGIC" id="magicButton" disabled>
+        </div>
+      </div>
+    </form>
+  </body>
+</div>
+</html>
